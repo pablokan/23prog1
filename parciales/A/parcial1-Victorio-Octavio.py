@@ -45,7 +45,7 @@ inversiones = [
 ]
 
 #1)Buscar el nombre de cualquier inversor por ciudad y mostrarlo. (Las ciudades no se repiten)
-"""nombres = []
+nombres = []
 ciudad = input('busca el nombre de un inversor por ciudad: ')
 for inversor in inversores:
     datosInversor = inversor.split(',')
@@ -56,9 +56,8 @@ for inversor in inversores:
 if len(nombres) > 0:
     for nombre in nombres:
         print('El nombre de la persona que vive en', ciudad,'es:',nombre)
-"""
 #2)Decir el monto de la mayor inversión realizada en el 2022.
-"""mayorInversion = 0
+mayorInversion = 0
 for inversion in inversiones:
     if '2022' in inversion:
         montoInicio = inversion.find('$')+1
@@ -68,7 +67,7 @@ for inversion in inversiones:
         if monto > mayorInversion:
             mayorInversion = monto
 print("La mayor inversión del año 2022 fue de:", mayorInversion)
-"""
+
 
 #3)Obtener el total de inversiones que fueron realizadas durante el segundo semestre del año 2021 por inversores de sexo masculino.
 
