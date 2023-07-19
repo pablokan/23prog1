@@ -1,4 +1,4 @@
-def inputStr(msg, mini=float('-inf'), maxi=float('inf')):
+def inputStr(msg, mini=0, maxi=float('inf')):
     validado = False
     while not validado:
         s = input(msg)
