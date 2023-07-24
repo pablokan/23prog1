@@ -1,7 +1,7 @@
 def carga():
     from calculo_edad import edad
     lista = []
-    with open('archivos/personas.txt') as archPersonas:
+    with open('personas.txt') as archPersonas:
         archPersonas.readline()
         for linea in archPersonas:
             fecha = linea.split()[1]
